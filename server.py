@@ -21,7 +21,7 @@ gis = ImageSignature()
 
 # Try to create the index and ignore IndexAlreadyExistsException
 # if the index already exists
-es.indices.create(index=es_index, ignore=400)
+# es.indices.create(index=es_index, ignore=400)
 
 # =============================================================================
 # Helpers
